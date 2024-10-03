@@ -24,33 +24,47 @@ This is the starting point for the **Math Competition App** assignment. The goal
 - [Node.js](https://nodejs.org) installed on your machine.
 - A code editor, such as [VSCode](https://code.visualstudio.com/).
 
-### Getting Started
-1. **Clone the repository:**
-    ```bash
-    git clone https://github.com/menglishca/math-competition-base.git
-    ```
+## How to Use this Template
+
+This repository is set up as a **GitHub template** to help you quickly create your own version of the **Math Competition App**.
+
+### Steps to Create Your Own Repository
+
+1. **Click the "Use this template" button** at the top of this page on GitHub.
    
-2. **Navigate to the project folder:**
+1. **Name your new repository** and choose its visibility (public or private).
+
+1. Once your repository is created, **clone your new repo** to your local machine:
     ```bash
-    cd math-competition-base
+    git clone <your-new-repo-url>
     ```
 
-3. **Install dependencies:**
+1. Navigate into the project directory and install the necessary dependencies:
     ```bash
+    cd <your-new-repo-name>
     npm install
     ```
-
-4. **Run the app:**
+  
+1. **Run the app:**
     ```bash
     npm start
     ```
     This will start the server at `http://localhost:3000/`.
 
-5. **Run tests:**
+1. **Run tests:**
     ```bash
     npm test
     ```
     This will run the unit tests for the application.
+
+1. You can now begin working on your project, adding your own code and committing your changes as you go:
+    ```bash
+    git add .
+    git commit -m "First commit"
+    git push origin main
+    ```
+
+By using this template, you'll have the project structure and initial setup ready to go, so you can focus on building the functionality!
 
 ## Development Guidelines
 
