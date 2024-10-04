@@ -3,8 +3,20 @@
  * 
  * @returns {} The random math question
  */
-function getQuestion() {
 
+// generates a random operator to use in questions
+function getOperator(){
+    const operators = ['-', '+', '*', '/'];
+    const randomOperatorIndex = Math.floor(Math.random() * operators.length) // randomizes given operator
+
+    return operators[randomOperatorIndex];
+}
+function getQuestion() {
+    const num1 = Math.floor(Math.random() * 10 + 1); // generates a random number 1-10
+    const num2 = Math.floor(Math.random() * 10 + 1); // generates a random 2nd number 1-10
+    const operator = getOperator();
+
+    return { num1, num2, operator, };
 }
 
 /**
